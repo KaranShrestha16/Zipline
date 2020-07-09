@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Zipline_Type">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Zipline Type"
+            android:textColor="@color/colorAccent"
+            android:textSize="38sp"
+            app:fontFamily="@font/im_fell_great_primer_sc" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_button_design"
+                    android:layout_margin="10dp"
+                    android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/img_classic_type"
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/classic_type" />
+                    <TextView
+                        android:id="@+id/tv_classic_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/img_classic_type"
+                        android:text="Classic Type"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp"
+                        app:fontFamily="@font/aclonica" />
+
+                    <TextView
+                        android:id="@+id/tv_classic_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_classic_name"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="6dp"
+                        android:layout_toRightOf="@+id/img_classic_type"
+                        android:text="Sit calmly on your seat and express the thrill as you ride down the zipline, having some time just for you and the nature."
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp"
+                        app:fontFamily="@font/aladin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:text=" Rs. 2500 \n RS 3000 SAARC\n Rs 3500 Foreigners"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        app:fontFamily="@font/amaranth" />
+                </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_design"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img_superman_type"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/supperman_type" />
+                <TextView
+                    android:id="@+id/tv_superman_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/img_superman_type"
+                    android:text="Superman Type"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    app:fontFamily="@font/aclonica" />
+
+                <TextView
+                    android:id="@+id/tv_supperman_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_superman_name"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_toLeftOf="@+id/img_superman_type"
+                    android:text="Be the new superman! Stretch out your hand and make your way in the air through Mother Nature as you live the life of superman. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18dp"
+                    app:fontFamily="@font/aladin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/img_superman_type"
+                    android:text=" Rs. 3500 \n RS 4000 SAARC\n Rs 4500 Foreigners"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/amaranth" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_design"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img_couple_type"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/couple_type" />
+                <TextView
+                    android:id="@+id/tv_couple_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/img_couple_type"
+                    android:text="Couple Type"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25dp"
+                    app:fontFamily="@font/aclonica" />
+
+                <TextView
+                    android:id="@+id/tv_copule_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_couple_name"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_toRightOf="@+id/img_couple_type"
+                    android:text="Why zip alone when you can share the thrill with your loved one? Enjoy the amazing couple zipline, love flows in the air as you ride down!"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18dp"
+                    app:fontFamily="@font/aladin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:text=" Rs. 4500 \n RS 5000 SAARC\n Rs 6000 Foreigners"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/amaranth" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aladin</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/amarante</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/amaranth_bold_italic</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/dynalight</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/im_fell_double_pica_sc</item>
+        <item>@font/im_fell_english_sc</item>
+        <item>@font/im_fell_great_primer_sc</item>
+        <item>@font/jacques_francois</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/modern_antiqua</item>
+        <item>@font/permanent_marker</item>
+    </array>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Profile">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="User Profile"
+            android:textColor="@color/colorAccent"
+            android:textSize="38sp"
+            app:fontFamily="@font/im_fell_great_primer_sc" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="405dp">
+           <LinearLayout
+               android:background="@drawable/gradient"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:id="@+id/img_user_image"
+                   android:layout_width="150dp"
+                   android:layout_height="157dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="45dp"
+                   android:src="@drawable/ic_user" />
+               <TextView
+                   android:id="@+id/tv_user_profile_username"
+                   android:layout_marginTop="10dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:fontFamily="@font/aladin"
+                   android:text="Wiliam Snoe"
+                   android:textColor="@color/colorPrimary"
+                   android:textStyle="bold"
+                   android:textSize="29sp"/>
+           </LinearLayout>
+           <androidx.cardview.widget.CardView
+               android:layout_width="400dp"
+               android:layout_height="120dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="275dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+                   <LinearLayout
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="User Name"
+                           app:fontFamily="@font/amaranth"
+                           android:textSize="20sp"
+                           />
+
+                       <TextView
+                           android:id="@+id/tv_username_profile"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:paddingTop="10dp"
+                           android:text="Abhinab334"
+                           app:fontFamily="@font/aladin"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textSize="20sp"
+                           android:textStyle="bold" />
+
+                   </LinearLayout>
+                   <LinearLayout
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Email"
+                           app:fontFamily="@font/amaranth"
+                           android:textSize="20sp"
+                           />
+                       <TextView
+                           android:id="@+id/tv_email_profile"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="abhinav@gmail.com"
+                           android:textStyle="bold"
+                           app:fontFamily="@font/aladin"
+                           android:textSize="20sp"
+                           android:paddingTop="10dp"
+                           android:textColor="@color/colorPrimaryDark"/>
+
+                   </LinearLayout>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/tv_profile_editProfile"
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:text="Edit Profile"
+               android:textAllCaps="true"
+               android:paddingTop="25dp"
+               android:paddingLeft="40dp"
+               android:fontFamily="@font/amaranth"
+               android:textColor="@color/colorPrimaryDark"
+               android:background="@drawable/boder"
+               android:textSize="18dp"
+               />
+           <TextView
+               android:id="@+id/tv_profile_booking_history"
+               android:layout_width="match_parent"
+               android:layout_height="80dp"
+               android:text="Booking History"
+               android:paddingTop="25dp"
+               android:paddingLeft="40dp"
+               android:fontFamily="@font/amaranth"
+               android:textAllCaps="true"
+               android:textColor="@color/colorPrimaryDark"
+               android:background="@drawable/boder"
+               android:textSize="18dp"
+               />
+
+
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

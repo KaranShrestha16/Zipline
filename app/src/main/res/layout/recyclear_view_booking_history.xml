@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/boder"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/bookingHistory_layout"
+    android:layout_margin="9dp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/logo" />
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tv_date_recyclcler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_bold"
+            android:textAlignment="center"
+            android:text="2020/11/22"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/tv_zipline_type_recyclear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zipline Type: Superman"
+            android:fontFamily="@font/amaranth_bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tv_tourist_recyclear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tourist: Local"
+            android:fontFamily="@font/amaranth_bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/tv_view_recyclearView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/amarante"
+            android:text="View"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            app:fontFamily="@font/permanent_marker" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

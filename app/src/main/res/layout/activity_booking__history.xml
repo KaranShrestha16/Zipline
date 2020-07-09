@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".Booking_History">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Booking History "
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            app:fontFamily="@font/im_fell_great_primer_sc" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:src="@drawable/logo" />
+    </androidx.appcompat.widget.Toolbar>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="152dp"
+              android:src="@drawable/ic_curvebacks_01"
+              android:scaleType="fitXY"/>
+
+          <EditText
+              android:id="@+id/ed_search_booking_history"
+              android:background="@drawable/search_input_style"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:drawableLeft="@drawable/icon_search"
+              android:hint="Search"
+              android:textAlignment="center"
+              />
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/booking_recyclearvView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="40dp"
+              android:layout_below="@id/ed_search_booking_history"/>
+
+      </RelativeLayout>
+  </ScrollView>
+
+</LinearLayout>
